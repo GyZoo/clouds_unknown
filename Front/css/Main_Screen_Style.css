@@ -1,6 +1,9 @@
-.li {
+.a {
   text-decoration: none;
 }
 .primary-menu {
   background-color: #fff;
+}
+.primary-menu > li a {
+  text-decoration: none;
 }

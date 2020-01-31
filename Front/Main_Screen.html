@@ -5,24 +5,15 @@
 	<title>Main screen</title>
 </head>
 <body>
-
-
-	<div class="primary-menu">
-		<p>
-			<button type="button" name="Raid_Button" >
-				<ul><a href="windows/raid_screen.html"> Отправиться в рейд </a></ul>
-			</button>
-			<button type="button" onclick="exit()">
-				<ul>Выйти из игры</ul>
-			</button>
-		</p>
      <ul><p> Clouds Unknown </p></ul>
-
-     <ul><a href="windows/inventory_screen.html"> Снаряжение </a></ul>
-     <ul><a href="windows/quests_screen.html"> Задания </a></ul>
-     <ul><a href="windows/marketplace_screen.html"> Торговая площадка </a></ul>
-
-
+	 <div class="primary-menu">
+		 <p>
+			 <button type="button" onclick="window.location.href = 'windows/raid_screen.html'" > Отправиться в рейд </button>
+			 <button type="button" onclick="window.location.href = 'windows/inventory_screen.html'"> Инвентарь </button>
+			 <button type="button" onclick="window.location.href = 'windows/quests_screen.html'"> Задания </button>
+			 <button type="button" onclick="window.location.href = 'windows/marketplace_screen.html'"> Торговая площадка </button>
+			 <button type="button" onclick="exit()">Выйти из игры</button>
+		 </p>
   </div>
 
 

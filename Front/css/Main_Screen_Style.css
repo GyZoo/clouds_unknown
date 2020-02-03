@@ -1,16 +1,16 @@
 * {
-  overflow-x: hidden;
+overflow-x: hidden;
 }
 html {
 
 }
 body {
-margin: 0;
+margin: 0 auto;
 }
 .all-page{
   /*background-color: #000; */
 width: 100%;
-height: 95vh;
+height: 100vh;
 background-image: url(../images/menu-listva.jpg);
 background-repeat: no-repeat;
 background-position: top center;

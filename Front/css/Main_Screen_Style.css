@@ -10,7 +10,7 @@ margin: 0 auto;
   /*background-color: #000; */
 width: 100%;
 height: 100vh;
-background-image: url(../images/menu-sky.jpg);
+background-image: url(../images/menu_sky.jpg);
 background-repeat: no-repeat;
 background-position: top center;
 
@@ -73,7 +73,7 @@ background-position: top center;
      border: none;
      width: 10%;
      height: 2.5em;
-     text-align: center;
+     text-align: left;
      text-decoration: none;
      font-size: 16px;
      border-radius: 10px;
@@ -81,7 +81,7 @@ background-position: top center;
      color: white;
      border: 2px solid #4C4AFF;
      overflow:  hidden;
-     
+
 }
 .button_daily:hover {
   background-color: #9B81FF; /* фиолетовый */

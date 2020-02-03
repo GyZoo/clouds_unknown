@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--   <<<<<<< HEAD
-<link rel="stylesheet" type="text/css" href="css/style.css" >   --->
-	<title>Main Screen</title>
-<!-- ======= -->
+
+<title>Main Screen</title>
+
 <link rel="stylesheet" type="text/css" href="css/main_screen_style.css" >
-	<title>Main screen</title>
-<!--   >>>>>>> 96d4e1c7c244c68e7f387cf9dc62dbccfb2f9873   -->
+
+
 </head>
 <body>
+
 	<div class="all-page">
   <div class="top">
-		   <p> Clouds Unknown </p>
+		  <p> Clouds Unknown </p>
 	</div>
-<!--<<<<<<< HEAD
-<<<<<<< HEAD
-     <ul><a href="windows/Raid_Screen.html"> Отправиться в рейд </a></ul>
-     <ul><a href="windows/Inventory_Screen.html"> Снаряжение </a></ul>
-     <ul><a href="windows/Quests_Screen.html"> Задания </a></ul>
-     <ul><a href="windows/Marketplace_Screen.html"> Торговая площадка </a></ul>
-     <ul><a href="#"> Выйти из игры </a></ul>
-=======
-
-     <ul><a href="windows/inventory_screen.html"> Снаряжение </a></ul>
-     <ul><a href="windows/quests_screen.html"> Задания </a></ul>
-     <ul><a href="windows/marketplace_screen.html"> Торговая площадка </a></ul>
-
->>>>>>> 96d4e1c7c244c68e7f387cf9dc62dbccfb2f9873
-======= -->
 	 <div class="primary-menu">
-			<p> <button type="button" onclick="window.location.href = 'windows/raid_screen.html'" > Отправиться в рейд </button> </p>
-			<p> <button type="button" onclick="window.location.href = 'windows/inventory_screen.html'"> Инвентарь </button> </p>
-			<p> <button type="button" onclick="window.location.href = 'windows/quests_screen.html'"> Задания </button> </p>
-			<p> <button type="button" onclick="window.location.href = 'windows/marketplace_screen.html'"> Торговая площадка </button> </p>
-			<p> <button type="button" onclick="exit()">Выйти из игры</button>
-<!--   >>>>>>> 55f7de56e6c1f167a4690bd399933c9c31b17ffb    -->
+			<p> <button class="button" onclick="window.location.href = 'windows/raid_screen.html'" > Отправиться в рейд </button> </p>
+			<p> <button class="button" onclick="window.location.href = 'windows/inventory_screen.html'"> Инвентарь </button> </p>
+			<p> <button class="button" onclick="window.location.href = 'windows/quests_screen.html'"> Задания </button> </p>
+			<p> <button class="button" onclick="window.location.href = 'windows/marketplace_screen.html'"> Торговая площадка </button> </p>
   </div>
-<div class="bot"> logo + huita </div>
+<div class="bot">
+			<p> logo + huita </p>
+
+			<button class="button_daily" onclick="window.location.href = 'windows/marketplace_screen.html'">Бонус</button>
+			<button class="button_exit" onclick="exit()">Выход</button>
+
+ </div>
 </div>
 </body>
-	<script type="text/javascript" src = "javascript/main_screen_javascript.js "></script>
+			<script type="text/javascript" src = "javascript/main_screen_javascript.js "></script>
 </html>

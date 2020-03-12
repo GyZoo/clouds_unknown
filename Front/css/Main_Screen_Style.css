@@ -47,7 +47,7 @@ background-position: top center;
 
 }
 .button:hover {
-  background-color: #9B81FF; /* фиолетовый */
+  background-color: #9B21FF; /* фиолетовый */
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 12px 100px 0 rgba(0,0,0,0.19);
 }
@@ -66,25 +66,32 @@ background-position: top center;
   display: block;
   text-align: center;
 }
-
+.logo{
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/cape.png);
+    margin: auto;
+    /*background-position: center;
+    text-align: center;*/
+}
 .button_daily {
-     margin-right: 60%;
+    display: inline-flex;
+     margin-right: 50%;
      background-color: #7373FF; /* голубой */
      border: none;
-     width: 10%;
-     height: 2.5em;
-     text-align: left;
+     width: 20%;
+     /*height: 2.5em;*/
+     text-align: center;
      text-decoration: none;
      font-size: 16px;
      border-radius: 10px;
-     transition-duration: 0.3s;
+     transition-duration: 0.2s;
      color: white;
      border: 2px solid #4C4AFF;
      overflow:  hidden;
-
 }
 .button_daily:hover {
-  background-color: #9B81FF; /* фиолетовый */
+  background-color: #9B21FF; /* фиолетовый */
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 12px 100px 0 rgba(0,0,0,0.19);
 }
@@ -98,9 +105,9 @@ background-position: top center;
   margin-bottom: 30vh;
   background-color: #7373FF; /* голубой */
   border: none;
-  width: 10%;
+  width: 20%;
   height: 2.5em;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   font-size: 16px;
   border-radius: 10px;
@@ -110,7 +117,7 @@ background-position: top center;
   overflow:  hidden;
 }
 .button_exit:hover {
-  background-color: #9B81FF; /* фиолетовый */
+  background-color: #9B21FF; /* фиолетовый */
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 12px 100px 0 rgba(0,0,0,0.19);
 }

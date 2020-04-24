@@ -11,7 +11,7 @@ body {
   /*background-color: #000; */
   width: 100%;
   height: 100vh;
-  background-image: url(../images/menu_sky.jpg);
+  background-image: url(img/menu_sky.jpg);
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -78,7 +78,7 @@ body {
 .logo {
   width: 64px;
   height: 64px;
-  background-image: url(../images/cape.png);
+  background-image: url(img/cape.png);
   margin: auto;
   /*background-position: center;
     text-align: center;*/
